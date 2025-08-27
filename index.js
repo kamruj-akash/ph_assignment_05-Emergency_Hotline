@@ -27,7 +27,7 @@ for (const cartBtn of callCartBtn) {
       const newCallHistory = document.createElement("div");
       newCallHistory.innerHTML = `
        <div
-              class="flex justify-between bg-[#FAFAFA] rounded-xl p-4 mt-4 gap-y-2 md:p-2 md:flex-col lg:flex-row lg:p-4"
+              class="flex justify-between bg-[#FAFAFA] rounded-xl p-4 mt-4 gap-y-2 md:p-2 md:flex-col lg:flex-row lg:p-4 shadow-sm"
             >
               <div class="w-2/3 md:w-full lg:w-2/3">
                 <h1 class="text-[#111111] text-xl font-semibold mb-1">
